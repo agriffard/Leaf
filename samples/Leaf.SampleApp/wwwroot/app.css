@@ -1,0 +1,8 @@
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.leaf-map {
+    border-radius: 8px;
+    border: 1px solid #dfe3e8;
+}

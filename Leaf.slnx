@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/Leaf.SampleApp/Leaf.SampleApp.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Leaf/Leaf.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Leaf.Tests/Leaf.Tests.csproj" />
+  </Folder>
+</Solution>
