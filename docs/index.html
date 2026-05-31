@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Leaf docs</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.5; max-width: 900px; }
+    pre { background: #f6f8fa; padding: 1rem; overflow-x: auto; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+</head>
+<body>
+  <h1>Leaf</h1>
+  <p>Leaf is a clean Blazor wrapper for Leaflet and MapLibre with support for markers, clustering, popups, and draw tools.</p>
+
+  <h2>Install</h2>
+  <pre><code>dotnet add package Leaf</code></pre>
+
+  <h2>Basic usage</h2>
+  <pre><code>&lt;LeafMap Engine="LeafMapEngine.Leaflet"
+         Latitude="48.8566"
+         Longitude="2.3522"
+         Zoom="6"
+         Markers="markers"
+         EnableClustering="true"
+         EnableDrawTool="true" /&gt;</code></pre>
+
+  <h2>Sample app</h2>
+  <p>Run <code>dotnet run --project samples/Leaf.SampleApp</code> to validate interactions locally.</p>
+</body>
+</html>
