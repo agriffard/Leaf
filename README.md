@@ -9,7 +9,6 @@ Leaf is a .NET 10 Blazor component library that wraps Leaflet and MapLibre with 
 - **Leaf component library** (`/src/Leaf`)
 - **Sample Blazor app** to validate usage (`/samples/Leaf.SampleApp`)
 - **Docs site content** for GitHub Pages (`/docs`)
-- **GitHub Actions** for CI, NuGet publishing, and Pages deploy (`/.github/workflows`)
 
 ## Install
 
@@ -54,9 +53,3 @@ dotnet restore /tmp/workspace/agriffard/Leaf/Leaf.slnx
 dotnet build /tmp/workspace/agriffard/Leaf/Leaf.slnx -c Release
 dotnet test /tmp/workspace/agriffard/Leaf/Leaf.slnx -c Release
 ```
-
-## CI/CD
-
-- **CI** workflow builds and tests the solution on pushes and PRs.
-- **NuGet** workflow packs the `Leaf` component and pushes on `v*` tags.
-- **Pages** workflow deploys `/docs` to GitHub Pages.
